@@ -1,0 +1,67 @@
+body{
+background-color: white;
+font-family: 'Courier New', Courier, monospace;
+font-size: medium;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.datepicker-container{
+    position: relative;
+    display: inline-block;
+}
+
+.datepicker-input{
+    display: flex;
+    border: 1px solid black;
+    padding: 8px;
+    background-color:white;
+    align-items: center;
+}
+
+
+.datepicker-input input{
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+}
+
+
+.calendar-btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+.datepicker-dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    box-shadow:  0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    
+}
+
+.datepicker-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.datepicker-table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.datepicker-table th, .datepicker-table td{
+    padding: 5px;
+    border: 1px solid #ddd;
+}
